@@ -1,0 +1,19 @@
+.place__website{
+    margin: 106px 0 0 0;
+    max-width: 456px;
+    max-height: 46px;
+}
+
+@media (max-width: 1023px){
+    .place__website{
+        margin: 46px 0 0 0;
+        max-width: 352px;
+    }
+}
+
+@media (max-width: 767px){
+    .place__website{
+        margin: 0 16px;
+        max-width: 288px;
+    }
+}

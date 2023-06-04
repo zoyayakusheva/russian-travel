@@ -1,0 +1,14 @@
+.footer__column{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50px 57px 94px 86px 106px;
+    grid-column-gap: 18px;
+}
+
+@media(max-width: 767px){
+    .footer__column{
+        grid-template-columns: 24px;
+        grid-row-gap: 32px;
+    }
+}
