@@ -2,7 +2,6 @@
     display: inline-grid;
     grid-template-columns: 30px 29px;
     gap: 18px 0;
-    height: 28px;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 24px;
@@ -10,14 +9,13 @@
     text-align: right;
 }
 
-.header__lang-link_theme{
+.header__lang-link:lang(ru){
     text-decoration: underline;
 }
 
-@media (max-width: 767px){
+@media all and (min-width: 320px) and (max-width: 767px){
     .header__lang-link{
         grid-template-columns: 22px 22px;
-        height: 20px;
         font-size: 18px;
         line-height: 20px;
     }

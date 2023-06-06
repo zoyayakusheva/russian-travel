@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    max-height: 18px;
     font-size: 16px;
     line-height: 18px;
     color: #FFFFFF;
@@ -12,9 +11,8 @@
     opacity: .8;
 }
 
-@media (max-width: 767px){
+@media all and (min-width: 320px) and (max-width: 767px){
     .footer__link{
-        max-height: 24px;
         font-size: 24px;
         line-height: 24px;
     }

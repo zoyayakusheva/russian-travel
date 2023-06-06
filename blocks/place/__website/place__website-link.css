@@ -1,7 +1,6 @@
 .place__website-link{
     margin: 0;
     max-width: 456px;
-    max-height: 22px;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
@@ -12,13 +11,13 @@
     opacity: .8;
 }
 
-@media (max-width: 1023px){
+@media all and (min-width: 768px) and (max-width: 1023px){
     .place__website-link{
         max-width: 352px;
     }
 }
 
-@media (max-width: 767px){
+@media all and (min-width: 320px) and (max-width: 767px){
     .place__website-link{
         max-width: 288px;
     }
