@@ -1,0 +1,11 @@
+.header__lang{
+    display: grid;
+    grid-template-columns: 30px 30px;
+    gap: 0 18px;
+}
+
+@media all and (max-width: 767px){
+    .header__lang{
+        grid-template-columns: 22px 22px;
+    }
+}
